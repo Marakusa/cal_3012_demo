@@ -1,9 +1,12 @@
 pipeline {
     agent any
-        stages {
+    tools {
+        maven 'Maven3'
+    }
+    stages {
         stage ('check'){
             steps{
-                git 'https://github.com/ADirin/cal_3012_demo.git'
+                git 'https://github.com/Marakusa/cal_3012_demo.git'
             }
         }
         stage ('build'){
@@ -22,6 +25,5 @@ pipeline {
                 jacoco()
             }
         }
-
     }
 }
