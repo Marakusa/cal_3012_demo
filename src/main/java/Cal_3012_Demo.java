@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class Cal_3012_Demo {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("enter the first number");
+        System.out.println("Enter the first number:");
         double a = sc.nextDouble();
-        System.out.println("enter the second number");
+        System.out.println("Enter the second number:");
         double b = sc.nextDouble();
         System.out.println(addMe(a,b));
         System.out.println(subMe(a,b));
