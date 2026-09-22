@@ -5,7 +5,7 @@ pipeline {
     }
     environment {
         PATH = "C:\\Users\\skype\\AppData\\Local\\Programs\\DockerDesktop\\resources\\bin;${env.PATH}"
-        DOCKERHUB_CREDENTIALS_ID = 'docker'
+        DOCKERHUB_CREDENTIALS_ID = 'dockerhub-credentials'
         DOCKERHUB_REPO = 'marakusa/cal_2026'
         DOCKER_IMAGE_TAG = 'latest'
     }
